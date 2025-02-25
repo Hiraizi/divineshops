@@ -1,4 +1,3 @@
-/* 🌟 Reset và Cơ bản */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11,7 +10,6 @@ h1, h2, h3 {
   color: #007bff;
 }
 
-/* 🛒 Container Giỏ hàng */
 .cart-container {
   max-width: 1200px;
   margin: auto;
@@ -22,7 +20,6 @@ h1, h2, h3 {
   text-align: left;
 }
 
-/* 🔲 Bố cục Giỏ hàng */
 .cart-content {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -30,7 +27,6 @@ h1, h2, h3 {
   margin-top: 20px;
 }
 
-/* 📦 Cột Sản phẩm */
 .cart-left {
   padding: 10px;
   background-color: #fff;
@@ -104,7 +100,6 @@ h1, h2, h3 {
   background-color: #0056b3;
 }
 
-/* 🗑️ Xóa Sản phẩm */
 .delete-btn {
   background-color: #ff4d4f;
   color: white;
@@ -119,7 +114,6 @@ h1, h2, h3 {
   background-color: #d63031;
 }
 
-/* 💰 Thanh toán */
 .cart-right {
   padding: 20px;
   background-color: #f9f9f9;
@@ -165,7 +159,6 @@ h1, h2, h3 {
   background-color: #d63384;
 }
 
-/* 🔝 Header Banner */
 .bannerTopHeader {
   display: flex;
   align-items: center;
@@ -193,7 +186,6 @@ h1, h2, h3 {
   margin-right: 5px;
 }
 
-/* 🔷 Banner Logo */
 .bannerTop {
   display: flex;
   align-items: center;
@@ -218,7 +210,6 @@ h1, h2, h3 {
   margin-right: 10px;
 }
 
-/* 🔍 Thanh Tìm kiếm */
 .search {
   display: flex;
   justify-content: center;
@@ -249,7 +240,6 @@ h1, h2, h3 {
   background-color: #004085;
 }
 
-/* 👤 User và Giỏ hàng */
 .user-cart {
   display: flex;
   align-items: center;
@@ -308,4 +298,92 @@ h1, h2, h3 {
 .cart-item button:hover {
   background-color: #0056b3;
 }
+.featured-products-footer {
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-network {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logofb {
+  width: 30px;
+}
+.logoyb {
+  width: 30px;
+}
+
+.logoin {
+  width: 30px;
+}
+
+
+.footer-section {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 8px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: black; 
+  transition: color 0.3s;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.hotline {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.footer-badge img {
+  height: 100px;
+  width: auto;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  gap: 20px;
+}
+
 
